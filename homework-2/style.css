@@ -1,0 +1,41 @@
+*{
+	font-family: sans-serif;
+}
+
+.list-languages #main-language :nth-child(even){
+	color: blue;
+}
+
+.list-languages li:nth-child(even){
+	background-color: grey;
+}
+
+.list-languages #main-language li:last-child {
+	background-color: green;
+}
+
+.list-languages li:first-child {
+	background-color: lightblue;
+}
+
+.list-languages #main-language li:nth-child(odd){
+	background-color: white;
+	font-size: 24px;
+}
+
+.song-content {
+	padding: 10px;
+	border: 1px solid;
+}
+
+.song-content #fav-song + li {
+	background-color: grey;
+}
+
+.song-content li:not(#dislike-song){
+	color: red;
+}
+
+.song-content li:nth-child(3){
+	font-size: 30px;
+}
