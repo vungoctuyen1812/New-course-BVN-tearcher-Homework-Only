@@ -1,0 +1,31 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+.wrapper {
+	height: 200px;
+	width: 200px;
+	border: 1px solid #aaa;
+}
+
+.wrapper-block {
+	background-color: #ddd;
+	height: 500px;
+	width: 200px;
+	border: 2px solid #111;
+}
+
+.grid {
+	background-color: #ccc;
+	height: 200px;
+}
+
+.grid .col {
+	display: inline-block;
+	width: 33%;
+	background-color: red;
+	height: 100%;
+}
