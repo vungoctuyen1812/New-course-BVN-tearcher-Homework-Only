@@ -1,0 +1,79 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+body {
+	background-image: url(https://i0.wp.com/destinationsolomons.com/wp-content/uploads/2019/03/2560x1440-blue-abstract-noise-free-website-background-image.jpg?fit=2560%2C1440&ssl=1);
+}
+
+header {
+	background: black;
+	height: 50px;
+}
+#menu-wrapper{
+	background: #e9d8f4;
+	height: 40px;
+}
+#list-menu {
+	width: 900px;
+	margin: 0 auto;
+}
+#list-menu li {
+
+	display: inline;
+}
+#clear{
+	clear: both;
+}
+#content-wrapper {
+	margin: 0 auto;
+	width: 1000px;
+	background-color: #a3efed;
+}
+#cauchuyencong{
+	background-color: #a4a4a4;
+	height: 200px;
+}
+#content-wrapper{
+	margin: 0 auto;
+	width: 1000px;
+	background-color: #d4d4d4;
+}
+#phache{
+	background-color: #a1b6d1;
+	height: 300px;
+	width: 50%;
+	float: left;
+}
+#taphoa{
+	background-color: #e2d2f2;
+	height: 300px;
+	width: 50%;
+	float: right;
+}
+#layout li {
+	border: 1px solid black;
+	width: 24%;
+	height: 100px;
+	display: inline-block;
+}
+#sns{
+
+	width: 30%;
+	height: 200px;
+	background-color: #e1a5d2;
+	float: left;
+}
+#update{
+	width: 70%;
+	height: 200px;
+	background-color: #a2f1b2;
+	float: right;
+}
+footer{
+	align-items: center;
+	background-color: white;
+}
