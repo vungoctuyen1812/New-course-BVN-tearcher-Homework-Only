@@ -6,7 +6,11 @@
 			echo ('<script>alert("Login Success")</script>');
 			header('location: adminPage.php');
 		}else {
-			echo ('<script>alert("Login Failed")</script>');
+			echo ('<script>
+				setTimeout(function(){
+					alert("Login Failed")
+				},500);
+				</script>');
 		}
 			
 		
